@@ -1,0 +1,151 @@
+body{
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  color: #425F57;
+  font-size: 90px;
+  margin-top: 0;
+  width: 300px;
+  margin: 0 auto 0 auto;
+  font-family: 'Sacramento', cursive;
+}
+
+h2{
+  color: #425F57;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+  padding-bottom: 10px;
+
+}
+
+h3{
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+hr{
+  border: dotted #73A9AD 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+p {
+position: inherit;
+font-family: 'Montserrat', sans-serif;
+
+}
+
+.top-container{
+  background-color: #C6EBC5;
+  position: relative;
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+.middle-container{
+  margin:  0;
+  padding-top: 100px;
+  padding-bottom: 10px;
+  background-color: #F5F0BB;
+
+}
+.profile{
+  padding-bottom: 100px;
+}
+.bottom-container{
+  background-color: #C6EBC5;
+  padding: 50px 0 20px;
+}
+a{
+  color: #425F57;
+  margin: 10px 20px;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+
+}
+a.hover{
+  color: #425F57;
+}
+.copyright{
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+.imageman{
+  width: 150px
+}
+.image1{
+  width: 100px;
+  position: absolute;
+  right: 300px;
+  top: 100px;
+}
+
+.image2{
+  width: 125px;
+  left: 300px;
+  bottom: 100px;
+  position: absolute;
+
+}
+.image3{
+  width: 125px;
+  float: left;
+  margin-right: 30px;
+}
+.image4{
+  width: 125px;
+  float: right;
+  margin-left: 30px;
+}
+.image5{
+  width: 125px;
+  float: left;
+  margin-right: 30px;
+}
+.image6{
+  width: 125px;
+  float: right;
+  margin-left: 30px;
+}
+
+
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+
+}
+.intro{
+  width: 30%;
+  margin: auto;
+}
+.contact-me{
+  padding-bottom: 50px;
+}
+.contact-message {
+  width: 40%;
+margin: 40px auto 60px;
+}
+
+.btn {
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Merriweather', serif;
+  color: #000000;
+  font-size: 20px;
+  background: #C4DFAA;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #73A9AD;
+  text-decoration: none;
+}
